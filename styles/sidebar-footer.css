@@ -1,0 +1,170 @@
+body {
+  color: var(--white);
+  background-color: var(--background-main);
+  font-family: var(--font-main);
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 20vw;
+}
+
+.sidebar-nav {
+  background-color: var(--background-cards);
+  border-radius: 8px;
+  padding: 1em 0 1em 1em;
+  margin: 1em 0.5em;
+}
+
+ul {
+  margin-top: 1em;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+li {
+  margin: 1.2em auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.fa {
+  margin-right: 0.3em;
+}
+
+.logo {
+  max-width: 5em;
+  margin-bottom: 0.5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-cards);
+  border-radius: 8px;
+}
+
+.fa-plus {
+  padding-left: 1.5em;
+}
+
+.library {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 1em 1em 1.2em;
+  background-color: var(--background-cards);
+  border: none;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.section-playlist {
+  background-color: var(--background-light);
+  margin: auto 0.5em;
+}
+
+.text.title {
+  line-height: 2em;
+  font-weight: 600;
+}
+
+.text.subtitle {
+  font-size: 14px;
+  line-height: 2em;
+  margin-top: 0.3em;
+}
+
+.section-playlist__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 0.5em;
+  padding: 0.5em;
+}
+
+.section-playlist__btn {
+  background-color: var(--background-btn);
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  padding: 0.6em 0.8em;
+  border-radius: 2em;
+  max-width: fit-content;
+  border: none;
+  color: var(--background-cards);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.sidebar .cookies {
+  margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+  color: var(--font-grey);
+  font-size: 10px;
+}
+
+.sidebar .cookies a:hover {
+  text-decoration: underline;
+}
+
+.languages-btn {
+  background-color: transparent;
+  color: var(--white);
+  margin: 1.2em auto 1.2em 1em;
+  padding: 0.6em 0.8em;
+  border-radius: 2em;
+  max-width: fit-content;
+  border: 1px solid var(--white);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.disclaimer-premium {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.disclaimer-premium .text {
+  flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disclaimer-premium button {
+  background-color: var(--white);
+  color: var(--background-main);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+#artistList {
+  display: none;
+}

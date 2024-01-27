@@ -1,0 +1,14 @@
+:root {
+  --background-main: #020202;
+  --azul-medio: #1875e8;
+  --cor-fonte-principal: #041833;
+  --background-cards: #121212;
+  --background-light: #242424;
+  --white: #fcfcfc;
+  --background-btn: #f6f6f6;
+  --text-base-light: #d2d2d2;
+  --font-grey: #b3b3b3;
+  --font-main: 'DM Sans', sans-serif;
+  --background-icon: #131313;
+  --background-arrow: rgba(0, 0, 0, 7);
+}
